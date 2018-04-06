@@ -90,16 +90,17 @@ void mergeData(int data1, int data2){
     dataCustomer[lastCustomer] = temp;
     lastCustomer--;
 }
-
-//Program ini menerima input dengan format:
-//id_transaksi email phone card
-//Contoh:
-//1 e1 p1 c1
-//2 e2 p2 c2
-//3 e1 p3 c3
-//4 e4 p4 c4
-//5 e2 p4 c5
-//Dan setiap baris akan mengeluarkan semua list Customer yang telah masuk
+/*
+Program ini menerima input dengan format:
+id_transaksi email phone card
+Contoh:
+1 e1 p1 c1
+2 e2 p2 c2
+3 e1 p3 c3
+4 e4 p4 c4
+5 e2 p4 c5
+Dan setiap baris akan mengeluarkan semua list Customer yang telah masuk
+*/
 
 int main(){
     lastCustomer = 1;
